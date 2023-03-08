@@ -1,0 +1,174 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  File-ShareDir-Install-0.14
+    pathname: E/ET/ETHER/File-ShareDir-Install-0.14.tar.gz
+    provides:
+      File::ShareDir::Install 0.14
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      IO::Dir 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Inline-0.86
+    pathname: I/IN/INGY/Inline-0.86.tar.gz
+    provides:
+      Foo::Tester 0.86
+      Inline 0.86
+      Inline::Foo 0.86
+      Inline::MakeMaker 0.86
+      Inline::denter undef
+    requirements:
+      Digest::MD5 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0.8
+      perl 5.008001
+      version 0.82
+  Inline-C-0.82
+    pathname: E/ET/ETJ/Inline-C-0.82.tar.gz
+    provides:
+      Inline::C 0.82
+    requirements:
+      ExtUtils::MakeMaker 7.00
+      File::ShareDir::Install 0.06
+      File::Spec 0.8
+      Inline 0.86
+      Parse::RecDescent 1.967009
+      Pegex 0.66
+      perl 5.008001
+  Inline-Python-0.57
+    pathname: N/NI/NINE/Inline-Python-0.57.tar.gz
+    provides:
+      Inline::Python 0.57
+      Inline::Python::Boolean 0.57
+      Inline::Python::Function 0.57
+      Inline::Python::Object 0.57
+      Inline::Python::Object::Data 0.57
+    requirements:
+      Data::Dumper 0
+      Digest::MD5 2.5
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      Inline 0.46
+  Parse-RecDescent-1.967015
+    pathname: J/JT/JTBRAUN/Parse-RecDescent-1.967015.tar.gz
+    provides:
+      Parse::RecDescent 1.967015
+      Parse::RecDescent::Action 1.967015
+      Parse::RecDescent::ColCounter 1.967015
+      Parse::RecDescent::Directive 1.967015
+      Parse::RecDescent::Error 1.967015
+      Parse::RecDescent::Expectation 1.967015
+      Parse::RecDescent::InterpLit 1.967015
+      Parse::RecDescent::LineCounter 1.967015
+      Parse::RecDescent::Literal 1.967015
+      Parse::RecDescent::OffsetCounter 1.967015
+      Parse::RecDescent::Operator 1.967015
+      Parse::RecDescent::Production 1.967015
+      Parse::RecDescent::Repetition 1.967015
+      Parse::RecDescent::Result 1.967015
+      Parse::RecDescent::Rule 1.967015
+      Parse::RecDescent::Subrule 1.967015
+      Parse::RecDescent::Token 1.967015
+      Parse::RecDescent::UncondReject 1.967015
+    requirements:
+      ExtUtils::MakeMaker 6.5702
+      Test::More 0
+      Text::Balanced 1.95
+  Pegex-0.75
+    pathname: I/IN/INGY/Pegex-0.75.tar.gz
+    provides:
+      Pegex 0.75
+      Pegex::Base undef
+      Pegex::Bootstrap undef
+      Pegex::Compiler undef
+      Pegex::Constant undef
+      Pegex::Grammar undef
+      Pegex::Grammar::Atoms undef
+      Pegex::Input undef
+      Pegex::Module undef
+      Pegex::Optimizer undef
+      Pegex::Parser undef
+      Pegex::Parser::Indent undef
+      Pegex::Pegex::AST undef
+      Pegex::Pegex::Grammar undef
+      Pegex::Receiver undef
+      Pegex::Regex undef
+      Pegex::Tree undef
+      Pegex::Tree::Wrap undef
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      File::ShareDir::Install 0.06
+      JSON::PP 0
+      Scalar::Util 0
+      XXX 0.35
+      YAML::PP 0.019
+      perl 5.008001
+  XXX-0.38
+    pathname: I/IN/INGY/XXX-0.38.tar.gz
+    provides:
+      XXX 0.38
+    requirements:
+      ExtUtils::MakeMaker 0
+      YAML::PP 0.018
+      perl 5.008001
+  YAML-PP-0.035
+    pathname: T/TI/TINITA/YAML-PP-0.035.tar.gz
+    provides:
+      YAML::PP 0.035
+      YAML::PP::Common 0.035
+      YAML::PP::Constructor 0.035
+      YAML::PP::Dumper 0.035
+      YAML::PP::Emitter 0.035
+      YAML::PP::Exception 0.035
+      YAML::PP::Grammar 0.035
+      YAML::PP::Highlight 0.035
+      YAML::PP::Lexer 0.035
+      YAML::PP::Loader 0.035
+      YAML::PP::Parser 0.035
+      YAML::PP::Perl 0.035
+      YAML::PP::Preserve::Array 0.035
+      YAML::PP::Preserve::Hash 0.035
+      YAML::PP::Preserve::Scalar 0.035
+      YAML::PP::Reader 0.035
+      YAML::PP::Reader::File 0.035
+      YAML::PP::Render 0.035
+      YAML::PP::Representer 0.035
+      YAML::PP::Schema 0.035
+      YAML::PP::Schema::Binary 0.035
+      YAML::PP::Schema::Core 0.035
+      YAML::PP::Schema::Failsafe 0.035
+      YAML::PP::Schema::Include 0.035
+      YAML::PP::Schema::JSON 0.035
+      YAML::PP::Schema::Merge 0.035
+      YAML::PP::Schema::Perl 0.035
+      YAML::PP::Schema::Tie::IxHash 0.035
+      YAML::PP::Schema::YAML1_1 0.035
+      YAML::PP::Type::MergeKey 0.035
+      YAML::PP::Writer 0.035
+      YAML::PP::Writer::File 0.035
+    requirements:
+      B 0
+      B::Deparse 0
+      Carp 0
+      Data::Dumper 0
+      Encode 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      Getopt::Long 0
+      MIME::Base64 0
+      Module::Load 0
+      Scalar::Util 1.07
+      Tie::Array 0
+      Tie::Hash 0
+      base 0
+      constant 0
+      overload 0
+      perl 5.008000
+      strict 0
+      warnings 0
